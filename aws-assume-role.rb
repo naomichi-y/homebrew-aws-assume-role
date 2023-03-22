@@ -8,8 +8,9 @@ class AwsAssumeRole < Formula
   depends_on "go" => :build
 
   def install
-    puts 'ok'
+    puts 'ok2'
     system "go", "build"
+    bin.install "aws-assume-role"
   end
 end
 
