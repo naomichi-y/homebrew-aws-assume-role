@@ -5,10 +5,10 @@ class AwsAssumeRole < Formula
   homepage "https://github.com/naomichi-y/aws-assume-role"
   url "https://github.com/naomichi-y/aws-assume-role/archive/refs/tags/1.0.0.tar.gz"
   sha256 "e47c3856b9c74c4f2d4d0691f04e3117e37a94096807b76427e6787dfc2f4963"
-  depends_on "dep" => :build
   depends_on "go" => :build
 
   def install
+    puts 'ok'
     system "go", "build"
   end
 end
