@@ -4,7 +4,7 @@
 class AwsAssumeRole < Formula
   desc ""
   homepage ""
-  url "https://github.com/naomichi-y/aws-assume-role/releases/tag/1.0.0"
+  url "https://github.com/naomichi-y/aws-assume-role/releases/download/1.0.0/aws-assume-role"
   version ""
   sha256 "4bb4e5693f24c6ab90dae98645158d201d51626da6830b1f117b9288be6f6969"
   license ""
