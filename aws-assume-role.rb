@@ -1,5 +1,7 @@
 require "formula"
 
+HOMEBREW_AWS_ASSUME_ROLE_VERSION = '1.0.0'
+
 class AwsAssumeRole < Formula
   desc ""
   homepage "https://github.com/naomichi-y/aws-assume-role"
