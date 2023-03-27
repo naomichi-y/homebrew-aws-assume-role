@@ -1,12 +1,10 @@
 require "formula"
 
-HOMEBREW_AWS_ASSUME_ROLE_VERSION = '1.0.0'
-
 class AwsAssumeRole < Formula
   desc ""
   homepage "https://github.com/naomichi-y/aws-assume-role"
-  url "https://github.com/naomichi-y/aws-assume-role/archive/refs/tags/1.0.0.tar.gz"
-  sha256 "e47c3856b9c74c4f2d4d0691f04e3117e37a94096807b76427e6787dfc2f4963"
+  url "https://github.com/naomichi-y/aws-assume-role/archive/refs/tags/1.0.2.tar.gz"
+  sha256 "b006d5ec419a49fd5076226046113a52b6bc7a50fcbcfb306089796584b6ec4b"
   depends_on "go" => :build
 
   def install
@@ -14,4 +12,3 @@ class AwsAssumeRole < Formula
     bin.install "aws-assume-role"
   end
 end
-
