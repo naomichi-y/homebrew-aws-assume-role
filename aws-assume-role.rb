@@ -3,8 +3,8 @@ require "formula"
 class AwsAssumeRole < Formula
   desc ""
   homepage "https://github.com/naomichi-y/aws-assume-role"
-  url "https://github.com/naomichi-y/aws-assume-role/archive/refs/tags/1.0.2.tar.gz"
-  sha256 "b006d5ec419a49fd5076226046113a52b6bc7a50fcbcfb306089796584b6ec4b"
+  url "https://github.com/naomichi-y/aws-assume-role/archive/refs/tags/1.0.3.tar.gz"
+  sha256 "c44de58495713ba114a1f8e3f070ce00b3dae39261ef2b58c89d4367fbc9c07b"
   depends_on "go" => :build
 
   def install
